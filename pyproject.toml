@@ -1,0 +1,24 @@
+[project]
+name = "namedropper"
+version = "0.1.0"
+description = "Multilingual name extraction library with confidence scoring"
+authors = [
+    { name="ChatGPT", email="noreply@openai.com" },
+    { name="The Good Shepherd", email="you@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "spacy==3.7.2",
+    "langdetect",
+    "jieba",
+    "kiwipiepy",
+    "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
