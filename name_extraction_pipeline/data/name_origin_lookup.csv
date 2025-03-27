@@ -1,0 +1,16 @@
+name,lang,confidence
+abraham,en,0.95
+mohammed,ar,0.98
+fatima,ar,0.95
+nguyen,vi,0.97
+minh,vi,0.93
+wei,zh,0.92
+li,zh,0.91
+kim,ko,0.96
+soojin,ko,0.92
+hans,de,0.93
+erik,da,0.92
+mario,it,0.91
+giuseppe,it,0.93
+jan,nl,0.92
+björn,se,0.9

@@ -1,4 +1,6 @@
 import jieba
+import logging
+jieba.setLogLevel(logging.ERROR)
 
 def tokenize_chinese(text):
     return list(jieba.cut(text, HMM=True))
