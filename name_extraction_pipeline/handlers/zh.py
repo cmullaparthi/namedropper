@@ -1,4 +1,7 @@
+import logging
 import jieba
+
+jieba.setLogLevel(logging.ERROR)
 
 COMMON_CHINESE_SURNAMES = {
     "王", "李", "张", "刘", "陈", "杨", "赵", "吴", "周", "徐", "孙"
